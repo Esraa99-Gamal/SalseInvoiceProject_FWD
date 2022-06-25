@@ -1,9 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.salse.model;
+
+package com.salse.proj_model;
 
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
@@ -20,7 +16,11 @@ public class Line_table extends AbstractTableModel{
         this.liness = liness;
     }
 
-
+    public ArrayList<Line> getLines() {
+        return liness;
+    }
+    
+    
     @Override
     public int getRowCount() {
 return liness.size();

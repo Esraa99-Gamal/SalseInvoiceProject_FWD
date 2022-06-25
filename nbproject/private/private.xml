@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/model/Invoice.java</file>
-            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/model/Invo_table.java</file>
-            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/model/Line.java</file>
-            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/view/InvoiceFrame.java</file>
-            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/controller/Controller.java</file>
+            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/proj_view/InvoDialog.java</file>
+            <file>file:/C:/Users/esraa/SalseInvoiceProject_FWD/src/com/salse/proj_view/InvoLineDialog.java</file>
         </group>
     </open-files>
 </project-private>

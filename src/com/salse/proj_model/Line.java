@@ -1,16 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.salse.model;
+
+package com.salse.proj_model;
 
 /**
  *
  * @author esraa
  */
 public class Line {
-    //private int num;
     private String item;
     private double price;
     private int count;
@@ -21,7 +16,6 @@ public class Line {
 
 
     public Line( String item, double price, int count, Invoice invoice) {
-//        this.num = num;
         this.item = item;
         this.price = price;
         this.count = count;
@@ -71,6 +65,8 @@ public class Line {
         return "Line{" + "num=" + invoice.getNum() + ", item=" + item + ", price=" + price + ", count=" + count + '}';
     }
     
-    
+    public String getAsCSVFile() {
+        return invoice.getNum() + "," + item + "," + price + "," + count;
+    }
     
 }

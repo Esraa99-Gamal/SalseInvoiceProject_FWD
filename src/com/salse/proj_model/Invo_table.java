@@ -1,7 +1,7 @@
 
 
 
-package com.salse.model;
+package com.salse.proj_model;
 
 import java.util.ArrayList;
 import javax.swing.event.EventListenerList;
@@ -31,15 +31,6 @@ private String[] colum= {"No" , "Date" , "Customer" , "Total"};
         return colum[column_name];
     }
 
-
-    public String[] getColum() {
-        return colum;
-    }
-
-    public void setColum(String[] colum) {
-        this.colum = colum;
-    }
-    
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
